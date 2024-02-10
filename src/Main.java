@@ -13,7 +13,7 @@ public class Main {
         var i = 1;
         while (i <= 10) {
             System.out.print(i + " ");
-            i += 1;
+            i ++;
         }
         System.out.println();
         for (int j = 10; j >= 1; j--) {
@@ -23,7 +23,7 @@ public class Main {
         // task 3
         var people = 12_000_000;
         for (i = 1; i <= 10; i++) {
-            people = (people + (people / 1000) * 17) - 8;
+            people = people + ((people/1000) * 17)-8;
             System.out.println("Год " + i + ", численность населения составляет" + people);
         }
         // task 4
