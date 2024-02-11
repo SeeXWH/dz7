@@ -23,7 +23,7 @@ public class Main {
         // task 3
         var people = 12_000_000;
         for (i = 1; i <= 10; i++) {
-            people = people + ((people/1000) * 17)-8;
+            people = people + ((people/1000) * 17)-((people/1000) * 17);
             System.out.println("Год " + i + ", численность населения составляет" + people);
         }
         // task 4
